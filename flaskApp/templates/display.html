@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Details</title>
+    
+  </head>
+ 
+  <body><center>
+  {% for item in data %}
+        <h1><font color="Blue">Details</font></h1>
+        <tr>
+            <td><b><font color="Red">First Name: </font></b></td>
+            <td>{{item[0]}}</td>
+        </tr>
+        <br>
+        <tr>
+            <td><b><font color="Red">Last Name: </font></b></td>
+            <td>{{item[1]}}</td>
+        </tr>
+        <br>
+        <tr>
+            <td><b><font color="Red">Email: </font></b></td>
+            <td>{{item[2]}}</td>
+        </tr>
+  {% endfor %}
+</center>  </body>
+</html>
