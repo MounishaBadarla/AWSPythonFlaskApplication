@@ -110,7 +110,8 @@ sudo vim flaskApp
     			}
 		}
 #### inorder to save the file press esc and type :wq and press enter.
-#### sudo service nginx restart #start the nginx web server with the configuration file.
+#### start the nginx web server with the configuration file.
+sudo service nginx restart
 #### gives the list with added flaskApp configuration file.
 ls 
 #### return back to the terminal
